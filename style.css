@@ -8,13 +8,14 @@
 
 .sidebar {
     background-color: rgb(153, 105, 105);
-    width: 10vw;
+    width: 434px;
     height: 110vh;
     font-family: 'Itim', cursive;
     
 }
 
 .sidebar nav {
+    
     padding: 45px;
 }
 
@@ -23,6 +24,11 @@
     font-size: 30px;
     padding: 33px 0;
     
+    
+}
+.sidebar nav li  a {
+    text-decoration: none;
+    color: #000;
     
 }
 
@@ -73,9 +79,29 @@
     margin: 0 3px;
     
 }
+.buttons button:hover{
+    background-color: aqua;
+    color: black;
+}
 
 
 
 .devPic img{
     width: 40vh;
+}
+
+
+.contactform{
+padding-top: 200px;
+padding: 0 34px
+;
+ font-family: 'Itim', cursive;
+}
+
+.contactform h1{
+    text-align: center;
+}
+
+.contactform form div{
+    padding: 7px 0;
 }
