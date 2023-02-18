@@ -9,7 +9,7 @@
 .sidebar {
     background-color: rgb(153, 105, 105);
     width: 434px;
-    height: 110vh;
+    height: 125vh;
     font-family: 'Itim', cursive;
     
 }
@@ -68,7 +68,7 @@
 }
 
 
-.buttons button{
+.btn {
     padding: 9px 14px;
     border-radius: 22px;
     color: white;
@@ -79,9 +79,15 @@
     margin: 0 3px;
     
 }
-.buttons button:hover{
+.btn:hover{
     background-color: aqua;
     color: black;
+}
+
+.btn-sm{
+    font-size: 15px;
+    padding: 4px 9px;
+    color: beige;
 }
 
 
@@ -92,16 +98,122 @@
 
 
 .contactform{
+padding: 0 34px;
 padding-top: 200px;
-padding: 0 34px
-;
+padding: 0 34px;
  font-family: 'Itim', cursive;
+ 
 }
 
 .contactform h1{
     text-align: center;
+    
 }
 
 .contactform form div{
+    
     padding: 7px 0;
+    display:flex ;
+    flex-direction: column;
+}
+
+.contactform form input{
+    width: 16vw;
+    border-radius: 5px;
+    margin: 6px 0;
+    padding: 3px;
+}
+
+#emailHelp{
+    font-size: 10px;
+
+}
+
+#form-check{
+    padding: 19px 0;
+    flex-direction: row;
+}
+
+#form-check input{
+    width: 24px;
+    margin: 0px;
+}
+
+
+.blogitem{
+    margin: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+
+
+.blogcontainer h1{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 23px;
+}
+
+
+.blogitem p {
+font-family: 'Times New Roman', Times, serif ;
+}
+
+.skills{
+    text-align: right;
+   text-decoration: dotted;
+    width: 100px;
+    height: 23px;
+    background-color: black;
+    width: 100%;
+    position: relative;
+    animation: fillBars 2.5s 1;
+    border: 2px solid black;
+    max-width: 500px;
+}
+
+
+.intro h2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 23px;
+    margin: 15px;
+
+}
+
+.intro p{
+    font-family: 'Times New Roman', Times, serif ;
+    margin: 15px;
+}
+
+.skillitem{
+    padding: 15px 10px;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 2px;
+   
+}
+
+  @keyframes fillBars{
+  from{
+    width: 0;
+  }
+  to{
+    width: 100%;
+  }
+}
+
+
+.hundred{
+    width: 500px;
+    background-color: indianred;
+   
+}
+
+.fifty{
+    width: 250px;
+    background-color: indianred;
+}
+
+.t5{
+    width: 175px;
+    background-color: indianred;
 }
